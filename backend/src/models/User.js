@@ -14,7 +14,7 @@ const userschema = new mongoose.Schema({
   password: {
     type: String,
     required: true,
-    minlength: 6, // corrected spelling: minlenghth ➜ minlength
+    minlength: 6, 
   },
   bio: {
     type: String,
